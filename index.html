@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Login</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <div id="login">
+        <div class="row">
+        <div class="column" id="left">
+            <div id="logcard">
+                <h4 id="here" >Here you are!</h4>
+                <h2 id="welcome">WELCOME <span style="color: #E1204A;">Back!</span></h2>
+                <img src="images/im.png">
+            </div>
+            
+        
+        </div>
+
+        <div class="column" id="right">
+
+            <header>
+                <img src="images/im.png">
+                <h3>welcome  <span style="color: #E1204A;">Back!</span></h3>
+                <h5>input your login details here</h5>
+            </header>
+
+            <form>
+                <div class="input-container">
+                    <!-- <i class="far fa-user"></i> -->
+                    <input class="input-field" type="text" id="user" placeholder="Enter Your Username">
+                </div>
+                <div>
+                    <!-- <i class="fas fa-lock icon"></i> -->
+                    <input class="input-field" type="password" placeholder="Input Password">
+
+                </div>
+
+                <div>
+                    <input  type="submit" value="Login">
+                </div>
+
+                <div>
+                    <p style="color: black;">Don't have an account?</p>
+                    <p id="cl" onclick="showRegister()" style="color: #4A86E8;"> Click here to <span style="color: #E1204A;">register</span></p>
+                </div>
+
+
+            </form>
+
+        </div>
+        </div>
+
+    </div>
+    
+
+
+
+
+
+
+    <div id="register">
+        <div class="row">
+            <div class="column" id="r-left">
+        
+                <header>
+                    <img src="images/im.png">
+                    <h3>Create Account </h3>
+                    <h5>kindly fill  your details here</h5>
+                </header>
+        
+                <form>
+                    <div class="input-container">
+                        <!-- <i class="far fa-user"></i> -->
+                        <input class="input-field" type="text" id="fullname" placeholder="Enter Your Fullname">
+                    </div>
+                    <div class="input-container">
+                        <!-- <i class="far fa-user"></i> -->
+                        <input class="input-field" type="text" id="user" placeholder="Enter Your Username">
+                    </div>
+                    <div class="input-container">
+                        <!-- <i class="far fa-user"></i> -->
+                        <input class="input-field" type="email" id="email" placeholder="Enter Your email">
+                    </div>
+                    <div>
+                        <!-- <i class="fas fa-lock icon"></i> -->
+                        <input class="input-field" type="password"  id="password" placeholder="Input Password">
+                    </div>
+                    <div>
+                        <!-- <i class="fas fa-lock icon"></i> -->
+                        <input class="input-field" type="password" id="conf-password" placeholder="Confirm Password">
+                    </div>
+        
+                    <div>
+                        <input type="submit" value="Register">
+                    </div>
+           
+        
+                </form>
+        
+            </div>
+            
+            <div class="column" id="r-right">
+
+                <div id="regtag">
+                    <h4 id="here">Hi there!</h4>
+                    <p id=>Brace you  <span style="color: #E1204A;">creativity</span> <br>by joining the community</p>
+                   
+                </div>
+                <div id="haveacc">
+                    <p><span style="color:#4A86E8;">Already have an Account</span></p>
+                    <p  id="regclick" onclick="showlogin()" id="reg">kindly login  <span style="color: #E1204A;">here!</span></p>
+                    <img src="images/im.png">
+                </div>
+                
+               
+             
+               
+            </div>
+        </div>
+
+    </div>
+
+    <script src="/index.js"></script>
+    <script src="/script/script.js"></script>
+</body>
+</html>

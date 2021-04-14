@@ -4,7 +4,7 @@
 
 }
 body{
-    background-color: #1E4B93;
+    background-color: #406aaf;
     /* background-image: linear-gradient(to right, #e8eaf6, #e0f7fa); */
 
 
@@ -29,7 +29,7 @@ body{
     margin-top:30px;
     padding: 10px;
     height: 400px;
-    /* box-shadow: 1px 1px  3px #b3e5fc; */
+    box-shadow: 1px 1px  3px #b3e5fc;
 }
 #right{
     margin: 0%;
@@ -46,6 +46,8 @@ body{
     border-top-left-radius:  40px;
     border-bottom-left-radius:  40px;
     background-size:100% 100%;
+    opacity: 100%;
+    box-shadow: #E1204A;
     background-image: url("images/background.png");
     
 }

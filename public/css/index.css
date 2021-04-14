@@ -184,3 +184,34 @@ input[type=submit] {
 
      }
  }
+
+
+
+ /* responsiveness */
+@media screen and (max-width:500px) {
+    .row{
+        display: block;
+    }
+
+    .column{
+    float: left;
+    width: 100%;
+    margin-top:30px;
+    padding: 10px;
+    height: 100%;
+    box-shadow: 1px 1px  3px #b3e5fc;
+}
+
+#left, #r-right, #right, #r-left{
+    border-radius: 0%;
+    height: 100%;
+ 
+    
+}  
+#regtag, #logcard{
+    margin: 10%;
+    text-align: center;
+    margin-top: 0%;
+    
+}
+}
